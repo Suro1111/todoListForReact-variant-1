@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  background: rgba(233, 233, 233, 0.4588235294);
+}
+
+.containerBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  background: #fff;
+  min-height: 100vh;
+}
+.containerBlock form {
+  width: 100%;
+  text-align: center;
+  background: #fbc41e;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.containerBlock form input {
+  outline: none;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+.containerBlock form button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  border: 0;
+  transition: 0.3s;
+}
+.containerBlock form button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.todoFooter {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.44);
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgb(94, 247, 83);
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.todoFooter button {
+  margin-left: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.todoFooter button:hover {
+  background: rgb(255, 0, 200);
+}/*# sourceMappingURL=TodoFooter.module.css.map */

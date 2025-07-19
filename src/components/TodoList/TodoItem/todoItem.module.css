@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(233, 233, 233, 0.4588235294);
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.containerBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  min-height: 100vh;
+}
+.containerBlock h1 {
+  line-height: 120px;
+}
+.containerBlock form {
+  width: 100%;
+  text-align: center;
+  background: #fbc41e;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.containerBlock form input {
+  outline: none;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+.containerBlock form button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  border: 0;
+  transition: 0.3s;
+}
+.containerBlock form button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.label {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.4588235294);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  font: bold 1em cursive;
+}
+.label:hover {
+  background: #87e7c2;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-shadow: 1px 1px #fff;
+}
+.label button {
+  padding: 2px 5px 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 0;
+  border: 2px solid;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.label button:hover {
+  background: red;
+  border-color: red;
+}/*# sourceMappingURL=todoItem.module.css.map */

@@ -1,0 +1,6 @@
+@import "../../assets/global.module.scss";
+
+.todoList {
+  @include flex(column, center, center, 0, 0, 0);
+  width: 100%;
+}

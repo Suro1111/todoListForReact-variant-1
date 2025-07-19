@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e9e9e975;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+@mixin flex($direction, $justify, $align, $g, $p, $m) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $g;
+  padding: $p;
+  margin: $m;
+}
+
+.containerBlock {
+  @include flex(column, center, center, 0, 20px, auto);
+  max-width: 800px;
+  min-height: 100vh;
+  h1 {
+    line-height: 120px;
+  }
+  form {
+    width: 100%;
+    text-align: center;
+    background: #fbc41e;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    input {
+      outline: none;
+      width: 50%;
+      padding: 10px;
+      border-radius: 10px 0 0 10px;
+      border: none;
+    }
+    button {
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 0 10px 10px 0;
+      border: 0;
+      transition: 0.3s;
+      &:hover {
+        background: #000;
+        color: #fff;
+      }
+    }
+  }
+}

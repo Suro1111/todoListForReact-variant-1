@@ -1,0 +1,28 @@
+@import "../../../assets/global.module.scss";
+
+.label {
+  box-shadow: inset 0 0 5px #80808075;
+  width: 100%;
+  @include flex(row, space-between, center, 10px, 10px, 0);
+  cursor: pointer;
+  transition: 0.3s;
+  font: bold 1em cursive;
+  &:hover {
+    background: #87e7c2;
+    user-select: none;
+    text-shadow: 1px 1px #fff;
+  }
+  button {
+    padding: 2px 5px 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 0;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    &:hover {
+      background: red;
+      border-color: red;
+    }
+  }
+}

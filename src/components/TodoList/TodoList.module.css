@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(233, 233, 233, 0.4588235294);
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.containerBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  min-height: 100vh;
+}
+.containerBlock h1 {
+  line-height: 120px;
+}
+.containerBlock form {
+  width: 100%;
+  text-align: center;
+  background: #fbc41e;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.containerBlock form input {
+  outline: none;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+.containerBlock form button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  border: 0;
+  transition: 0.3s;
+}
+.containerBlock form button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}/*# sourceMappingURL=TodoList.module.css.map */
